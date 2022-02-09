@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c19ec94-9e0b-4555-8a0f-fffe5bee4f34" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22mw2D2EyE9AesVWE8GYyPfpATH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_website/post/templates/post" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyWebsite\my_website\post\templates\post" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyWebsite\my_website\post\static\post\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.MyWebsite">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyWebsite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyWebsite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyWebsite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_website.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\User\Envs\mywebsite\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.MyWebsite" />
+      <item itemvalue="Python.main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c19ec94-9e0b-4555-8a0f-fffe5bee4f34" name="Changes" comment="" />
+      <created>1640455860774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640455860774</updated>
+      <workItem from="1640455861999" duration="18000" />
+      <workItem from="1640456448260" duration="8331000" />
+      <workItem from="1640514935609" duration="5213000" />
+      <workItem from="1640862739256" duration="7531000" />
+      <workItem from="1640873241966" duration="6712000" />
+      <workItem from="1640882370949" duration="7886000" />
+      <workItem from="1640966629956" duration="918000" />
+      <workItem from="1640970860436" duration="692000" />
+      <workItem from="1641201818295" duration="3039000" />
+      <workItem from="1641204922252" duration="222000" />
+      <workItem from="1641206307720" duration="921000" />
+      <workItem from="1641223706425" duration="3231000" />
+      <workItem from="1641319319676" duration="2909000" />
+      <workItem from="1641637823191" duration="343000" />
+      <workItem from="1641638184666" duration="2270000" />
+      <workItem from="1641729948747" duration="73000" />
+      <workItem from="1641730039659" duration="1375000" />
+      <workItem from="1641731848082" duration="1223000" />
+      <workItem from="1641823852805" duration="2768000" />
+      <workItem from="1641840135065" duration="1528000" />
+      <workItem from="1641841776197" duration="1136000" />
+      <workItem from="1641845604279" duration="625000" />
+      <workItem from="1642161957887" duration="3455000" />
+      <workItem from="1642168464230" duration="6225000" />
+      <workItem from="1642239943875" duration="589000" />
+      <workItem from="1642262988684" duration="4029000" />
+      <workItem from="1642269224143" duration="645000" />
+      <workItem from="1642273009945" duration="29000" />
+      <workItem from="1642274740900" duration="1214000" />
+      <workItem from="1643046183996" duration="5709000" />
+      <workItem from="1643210985709" duration="2477000" />
+      <workItem from="1643546033821" duration="7245000" />
+      <workItem from="1643575967431" duration="6561000" />
+      <workItem from="1643626082373" duration="522000" />
+      <workItem from="1643630499910" duration="17000" />
+      <workItem from="1643631218526" duration="8310000" />
+      <workItem from="1643703959978" duration="1374000" />
+      <workItem from="1643724452061" duration="511000" />
+      <workItem from="1643810315632" duration="1474000" />
+      <workItem from="1643897050548" duration="3089000" />
+      <workItem from="1643974540656" duration="6784000" />
+      <workItem from="1644143815616" duration="8753000" />
+      <workItem from="1644176663025" duration="4212000" />
+      <workItem from="1644234507355" duration="29012000" />
+      <workItem from="1644315717651" duration="15161000" />
+      <workItem from="1644354647361" duration="5075000" />
+      <workItem from="1644359797748" duration="1278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

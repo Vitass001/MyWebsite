@@ -1,0 +1,90 @@
+body {
+    background: #656161;
+}
+
+aside {
+    display: inline-block;
+    float: left;
+    background: #ffffff;
+    width: 20%;
+    padding: 2%;
+    height: 100vh;
+    color: #000000;
+    border-right: 10px solid #938f8f;
+
+}
+
+aside img {
+    float: left;
+    width: 30%;
+    margin-left: -10px;
+
+}
+
+aside .logo {
+    font-size: 32px;
+    margin-left: -3px;
+    font-weight: bold;
+    position: relative;
+    top: 1px
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+aside ul {list-style: none;}
+
+
+aside ul li {
+    color: black;
+    display: block;
+    margin-top: 10px;
+    transition: transform.3s ease;
+}
+
+aside ul i {
+    /*position: relative;*/
+    top: 5px;
+    margin-top: 10px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #a6a483;
+    /*text-decoration: none;*/
+    transform: scale(1.05);
+    text-decoration: none;
+
+}
+main .card {
+    display:inline-block;
+
+     margin-right: 5px;
+
+}
+
+main .figure {
+    color: black ;
+}
+
+
+main .figure-caption {
+    color: black;
+}
+
+main .title_main {
+    /*font-size: 16px;*/
+    color: black;
+    font-family: Arial, Helvetica, Verdana, sans-serif; /* Гарнитура шрифта */
+    font-size: 150%; /* Размер текста */
+    font-weight: lighter; /* Светлое начертание */
+    text-align: left;
+}
+
+main .d-block {
+    text-align: right;
+    /*display: inline-block;*/
+    /*float: left;*/
+}

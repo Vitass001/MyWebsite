@@ -1,0 +1,152 @@
+body {
+    background: #656262;
+}
+
+aside {
+    display: inline-block;
+    float: left;
+    background: #ff0000;
+    width: 20%;
+    padding: 2%;
+    height: 110vh;
+    color: #000000;
+    border-right: 10px solid #938f8f;
+
+
+}
+
+aside img {
+    float: left;
+    width: 30%;
+    margin-left: -10px;
+
+}
+
+aside .logo {
+    font-size: 32px;
+    margin-left: -3px;
+    font-weight: bold;
+    position: relative;
+    top: 1px
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+aside ul {list-style: none;}
+
+
+aside ul li {
+    color: black;
+    display: block;
+    margin-top: 10px;
+    transition: transform.3s ease;
+}
+
+aside ul i {
+    /*position: relative;*/
+    top: 5px;
+    margin-top: 10px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #a6a483;
+    /*text-decoration: none;*/
+    transform: scale(1.05);
+    text-decoration: none;
+
+}
+
+aside .relative {
+
+}
+
+main .card {
+    display:inline-block;
+    /*width: 75px;*/
+    margin-right: 10px;
+    /*width: 50px;*/
+    /*line-height: 40px;*/
+
+
+
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 6px 6px 6px 0 #2c2929;
+}
+
+main .figure {
+    color: black ;
+}
+
+
+main .figure-caption {
+    color: black;
+}
+
+main .title_main {
+    /*font-size: 16px;*/
+    color: black;
+    font-family: Arial, Helvetica, Verdana, sans-serif; /* Гарнитура шрифта */
+    font-size: 200%; /* Размер текста */
+    font-weight: lighter; /* Светлое начертание */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 5px 5px 5px rgba(155, 138, 138, 0.46);
+
+}
+
+main .d-block {
+    text-align: right;
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+
+
+main .items-end {
+    float: right;
+    /*text-align: center;*/
+    /*align-items: center;*/
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    /*margin-top: 16px;*/
+    color: #624b4b;
+     margin-right: 400px;
+     margin-top: -800px;
+        color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+
+/*body {*/
+/*  background: #f06d06;*/
+/*  !*font-size: 80%;*!*/
+/*}*/
+
+main {
+  /*background: #463f3f;*/
+  /*margin: 25px 0 0;*/
+  /*padding: 10px;*/
+
+
+
+
+}
+
+main .figure-caption { /* контент на детейлі*/
+    font-size: 20px;
+}
+
+main .timestamp_detail {
+    font-size: 14px;
+    color: darkgray;
+}
+
+
+main .carousel-inner {
+
+}

@@ -1,0 +1,123 @@
+{% extends 'post/index.html' %}
+
+{% block title %} Post List {% endblock %}
+
+
+{% block content %}
+        <a href="{% url 'post:create' %}"><i class="btn btn-warning"></i></a>
+{#        <a href="{% url 'post:create' %}" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Post Create</a>#}
+
+    <div class="wrap">
+    <div class="bblock">
+    {% for objects in object_list %}
+        <div class="card" style="width: 18rem;">
+        {% if objects.image %}
+      <img src="{{ objects.image.url }}" class="card-img-top" alt="...">
+
+            {% endif %}
+      <div class="card-body">
+        <h1 class="card-title"><div class="caption">
+                                <h4><a href="{{ objects.get_absolute_url }}">{{ objects.title }}</a> <small></small></h4>
+            {% if objects.user.get_full_name %}
+                                    <p>Author: {{ objects.user.get_full_name }}</p>
+                                    </div>
+                                    {% endif %}</h1>
+
+        <p class="card-text">{{ objects.content|linebreaks|truncatechars:100 }}</p>
+      <h3>{{ objects.money }} грн</h3>
+      <h5>{{ objects.timestamp|timesince }} тому</h5>
+        <a href="{{ objects.get_absolute_url }}" class="btn btn-primary">View</a>
+      </div>
+    </div>
+
+    {% endfor %}
+    </div>
+
+
+{#    /* новий блок*/#}
+
+{#<div class="card" style="width: 18rem;">#}
+{#  <img src="..." class="card-img-top" alt="...">#}
+{#  <div class="card-body">#}
+{#    <h5 class="card-title">Card with stretched links</h5>#}
+{#    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>#}
+{#    <p class="card-text">#}
+{#      <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>#}
+{#    </p>#}
+{#    <p class="card-text bg-light" style="transform: rotate(0);">#}
+{#      This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.#}
+{#    </p>#}
+{#  </div>#}
+{#</div>#}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+{#    <div class="col-sm-6 col-sm-offset-3">#}
+
+{#        <h1>{{ title }}</h1>#}
+{#        {% for objects in object_list %}#}
+{##}
+{#            <div class="row">#}
+{#                <div class="col-sm-12">#}
+{#                    <div class="thumbnail">#}
+{#                        {% if objects.image %}#}
+{#                            <img src="{{ objects.image.url }}" class="img-responsive">#}
+{#                        {% endif %}#}
+{#                        <div class="caption">#}
+{#                            <h3><a href="{{ objects.get_absolute_url }}">{{ objects.title }}</a> <small>{{ objects.timestamp|timesince }} тому</small></h3>#}
+{#                            {% if objects.user.get_full_name %}#}
+{#                                <p>Author: {{ objects.user.get_full_name }}</p>#}
+{#                            {% endif %}#}
+{#                            <p>{{ objects.content|linebreaks|truncatechars:100 }}</p>#}
+{#                            <p><a href="{{ objects.get_absolute_url }}" class="btn btn-primary" role="button">View</a></p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+
+
+
+    <div class="paginator">
+            <nav aria-label="Page navigation example">
+    <ul class="pagination">
+        {% if object_list.has_previous %}
+    <li class="page-item"><a class="page-link" href="?{{ page_request_var }}={{ object_list.previous }}">previous</a></li>
+        {% endif %}
+    <li class="page-item"><a class="page-link" href="?page=1">1</a></li>
+    <li class="page-item"><a class="page-link" href="?page=2">2</a></li>
+    <li class="page-item"><a class="page-link" href="?page=3">3</a></li>
+    {% if object_list.has_next %}
+    <li class="page-item"><a class="page-link" href="?{{ page_request_var }}={{ object_list.next_page_number }}">next</a></li>
+    {% endif %}
+    </ul>
+    </nav>
+    </div>
+
+
+{#            <span class="page-item">#}
+{#                {% if object_list.has_previous %}#}
+{#                    <a href="?{{ page_request_var }}={{ object_list.previous }}">previous</a>#}
+{#                {% endif %}#}
+{#            </span>#}
+{#            <span class="current">#}
+{#                Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}#}
+{#            </span>#}
+{#            {% if object_list.has_next %}#}
+{#                    <a href="?{{ page_request_var }}={{ object_list.next_page_number }}">next</a>#}
+{#            {% endif %}#}
+{#        </div>#}
+{#    </div>#}
+
+</div>
+{% endblock content %}
